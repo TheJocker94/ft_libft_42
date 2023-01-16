@@ -22,7 +22,9 @@ MAN = isalpha isdigit isalnum isascii isprint strlen memset bzero memcpy\
 		memcmp strnstr atoi calloc strdup substr strjoin strtrim split itoa\
 		strmapi striteri putchar_fd putstr_fd putendl_fd putnbr_fd\
 		printf print_p print_s putchars_fd putnbrs_fd putnbru_fd\
-		putnbr_X putstrs_fd putnbr_base_fd get_next_line
+		putnbr_X putstrs_fd putnbr_base_fd get_next_line\
+		lstnew lstadd_front lstsize lstlast lstadd_back lstdelone lstclear\
+		lstiter lstmap
 MANFC = $(addprefix ft_,$(addsuffix .c, $(MAN)))
 MANO = $(MANFC:.c=.o)
 
