@@ -5,7 +5,7 @@ Creating a lib of simple C functions
 <h2>How to Use</h2>
 <ol>
   <li>Clone this repository:</li>
-  <pre><code>git clone https://github.com/lpincoli/Libft42.git</code></pre>
+  <pre><code>git clone https://github.com/TheJocker94/ft_libft_42.git</code></pre>
   <li>Navigate to the libft directory:</li>
   <pre><code>cd libft</code></pre>
   <li>Execute the Makefile to compile the library:</li>
